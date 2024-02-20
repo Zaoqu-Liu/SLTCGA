@@ -1,0 +1,16 @@
+Package: SLTCGA
+Type: Package
+Title: TCGA analysis for SolvingLab.
+Version: 0.1.0
+Authors@R: c(person("Zaoqu", "Liu", email = "liuzaoqu@163.com", role = c("aut", "cre"),comment=c(ORCID="0000-0002-0452-742X")))
+Description: Prepare data and analysis pieline for SolvingLab.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: ComplexHeatmap, dplyr, ggplot2, patchwork, synapser, tidyr
+Depends: R (>= 3.1.0)
+NeedsCompilation: no
+Packaged: 2024-02-20 10:05:33 UTC; CNWTB
+Author: Zaoqu Liu [aut, cre] (<https://orcid.org/0000-0002-0452-742X>)
+Maintainer: Zaoqu Liu <liuzaoqu@163.com>
